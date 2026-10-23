@@ -1,0 +1,43 @@
+```text
+# Bytecode / Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Runtime and State Files
+/run/iot-shield/
+/var/lib/iot-shield/bootstrap/
+/var/lib/iot-shield/data/
+*.lock
+*.log
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
